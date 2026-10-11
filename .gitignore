@@ -13,3 +13,10 @@ models/
 mlruns/
 
 .env
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Generated evaluation plots
+confusion_matrix*.png

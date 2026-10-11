@@ -6,3 +6,4 @@ scikit-learn==1.9.1
 seaborn==0.13.2
 xgboost==3.4.1
 imbalanced-learn==0.14.2
+mlflow==3.17.0
