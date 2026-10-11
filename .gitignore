@@ -1,22 +1,31 @@
+# Virtual environment
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# VS Code
 .vscode/
 
+# Jupyter
 .ipynb_checkpoints/
 
+# Data
 data/raw/
 data/processed/
 
-models/
-
-mlruns/
-
-.env
+# Models
+models/*
+!models/churn_model.joblib
+!models/cluster_model.joblib
 
 # MLflow
-mlflow.db
 mlruns/
+mlflow.db
+
+# Environment variables
+.env
 
 # Generated evaluation plots
 confusion_matrix*.png
